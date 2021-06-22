@@ -1,0 +1,84 @@
+h1 {
+    text-align: center;
+}
+
+.styles {
+    display: block;
+    border: 2px solid darkgray;
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+}
+
+.color-container {
+    display: block;
+    width: 100%;
+}
+
+.color-panel {
+    display: inline-block;
+    width: 24.8%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
+}
+
+.light-lime-green {
+    background-color: #C5D5CB;
+    color: black;
+}
+
+.dark-lime-green {
+    background-color: #9FA8A3;
+    color: black;
+}
+
+.beige {
+    background-color: #E3E0CF;
+    color: black;
+}
+
+.brown {
+    background-color: #C2B490;
+    color: black;
+}
+
+.blue {
+    background-color: #0F2862;
+    color: white;
+}
+
+.red {
+    background-color: #9E363A;
+    color: white;
+}
+
+.dark-blue {
+    background-color: #091F36;
+    color: white;
+}
+
+.grey-blue {
+    background-color: #4F5F76;
+    color: white;
+}
+
+.slate {
+    background-color: #262626;
+    color: white;
+}
+
+.grey {
+    background-color: #3F3F3F;
+    color: white;
+}
+
+.white {
+    background-color: #F5F5F5;
+    color: black;
+}
+
+.light-grey {
+    background-color: #DCDCDC;
+    color: black;
+}
