@@ -115,12 +115,43 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* inserting nav bar would be helpful */
+
+header {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    align-items: right;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("img/plant_background.jpg");
+    padding: 0px;
+    margin: 0px;
+}
+
 .title {
-    text-align: center;
+    text-align: right;
+    color: white;
+    font-size: 48px;
+    padding: 0 2rem;
+}
+
+main {
+    width: 100%;
+    margin: 2rem 0;
+}
+
+h1 {
+    font-size: 26px;
 }
 
 h2 {
     margin: 10px 0px;
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 18px;
 }
 
 .styles {
@@ -128,7 +159,7 @@ h2 {
     border: 2px solid darkgray;
     padding: 10px;
     margin: 10px auto;
-    width: 80%;
+    width: 85%;
 }
 
 /* Color styles */ 
@@ -221,6 +252,10 @@ h2 {
     vertical-align: top;
 }
 
+.font-title {
+    margin: 10px 0;
+}
+
 .font-bold {
     font-weight: bold;
 }
@@ -245,10 +280,27 @@ h2 {
     font-family: 'Aleo', serif;
 }
 
+/* Text styles */
+
+.text-title {
+    margin: 10px 0;
+}
+
+.text-details {
+    font-size: 14px;
+}
+
+
 /* Overall styles */
 
 body {
     font-family: 'Mulish', sans-serif;
+    margin: 0px;
+}
+
+footer {
+    text-align: right;
+    font-size: 10px;
 }
 
   
